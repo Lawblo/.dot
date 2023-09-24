@@ -18,6 +18,7 @@ then
 fi
 
 echo "Add ssh-key to https://github.com/settings/keys:\n"
+
 cat $HOME/.ssh/id_rsa.pub
 
 read -p "continue when key added to github"
