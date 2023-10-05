@@ -20,10 +20,10 @@ createSymlink() {
 
 home_dir=/home/thorkil
 
-createSymlink $home_dir/.linux_setup/nvim $home_dir/.config/nvim
-createSymlink $home_dir/.linux_setup/tmux $home_dir/.config/tmux
-createSymlink $home_dir/.linux_setup/zsh/zshrc $home_dir/.zshrc
-createSymlink $home_dir/.linux_setup/gitconfig $home_dir/.gitconfig
+createSymlink $home_dir/.dot/nvim $home_dir/.config/nvim
+createSymlink $home_dir/.dot/tmux $home_dir/.config/tmux
+createSymlink $home_dir/.dot/zsh/zshrc $home_dir/.zshrc
+createSymlink $home_dir/.dot/gitconfig $home_dir/.gitconfig
 
 
 apt install zsh -y
